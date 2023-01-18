@@ -4,12 +4,41 @@
 <head>
     <meta charset="ISO-8859-1">
     <title>My app</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            background: rgb(8,12,27);
+            background: -moz-linear-gradient(351deg, rgba(8,12,27,1) 0%, rgba(255,111,111,1) 100%);
+            background: -webkit-linear-gradient(351deg, rgba(8,12,27,1) 0%, rgba(255,111,111,1) 100%);
+            background: linear-gradient(351deg, rgba(8,12,27,1) 0%, rgba(255,111,111,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#080c1b",endColorstr="#ff6f6f",GradientType=1);
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        p {
+            font-size: 30pt;
+            background: rgb(255,50,51);
+            border: 3px solid rgb(50,12,30);
+            padding: 50px;
+            border-radius: 20px;
+            font-family: 'Ubuntu', sans-serif;
+        }
+    </style>
 </head>
 
 <body>
-
-<p>Hello world!</p>
-
+    <div>
+        <p>Hello world!</p>
+    </div>
 </body>
 
 </html>
